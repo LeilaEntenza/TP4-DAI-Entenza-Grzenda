@@ -1,0 +1,20 @@
+{
+  "name": "tp4-dai-entenza-grzenda",
+  "version": "1.0.0",
+  "description": "tp 4 DAI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeilaEntenza/TP4-DAI-Entenza-Grzenda.git"
+  },
+  "author": "Entenza, Grzenda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeilaEntenza/TP4-DAI-Entenza-Grzenda/issues"
+  },
+  "homepage": "https://github.com/LeilaEntenza/TP4-DAI-Entenza-Grzenda#readme"
+}
