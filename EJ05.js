@@ -1,6 +1,8 @@
 const url = require('url');
 function parsearUrl(urlDada) {
     try {
+        new URL(urlDada);
+
         const parsear = url.parse(urlDada, true);
         const infoURL = {
             host: parsear.host,
@@ -10,7 +12,8 @@ function parsearUrl(urlDada) {
         return infoURL;
     }
     catch (err) {
-        console.error(err instanceof TypeError);
+        console.error(err);
+        return "";
     }
 }
 

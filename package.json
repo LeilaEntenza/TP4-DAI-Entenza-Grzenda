@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/LeilaEntenza/TP4-DAI-Entenza-Grzenda/issues"
   },
-  "homepage": "https://github.com/LeilaEntenza/TP4-DAI-Entenza-Grzenda#readme"
+  "homepage": "https://github.com/LeilaEntenza/TP4-DAI-Entenza-Grzenda#readme",
+  "dependencies": {
+    "currency-codes": "^2.2.0"
+  }
 }

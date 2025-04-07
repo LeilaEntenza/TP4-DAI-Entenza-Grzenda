@@ -21,4 +21,9 @@ const copiar = require('./EJ04');
 
 const parsearUrl = require('./EJ05');
 
-console.log(parsearUrl("pipipip"));
+//console.log(parsearUrl("pipipip"));
+console.log(parsearUrl("http://www.ort.edu.ar:8080/alumnos/index.htm?curso=2022&mes=mayo"));
+
+const obtenerMoneda = require('./EJ07');
+
+console.log(obtenerMoneda("colombia"));
